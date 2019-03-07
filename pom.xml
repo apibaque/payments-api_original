@@ -76,4 +76,17 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    
+    <distributionManagement>
+         <repository>
+                  <id>central</id>
+                  <name>artifactory-56958f4495-c9452-releases</name>
+                  <url>http://artifactory.kvz.cl/artifactory/kvz</url>
+         </repository>
+         <snapshotRepository>
+                  <id>snapshots</id>
+                  <name>artifactory-56958f4495-c9452-snapshots</name>
+                  <url>http://artifactory.kvz.cl/artifactory/kvz</url>
+         </snapshotRepository>
+    </distributionManagement>
 </project>
